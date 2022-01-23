@@ -1,0 +1,118 @@
+body {
+  font-family:chogokubosogothic;
+  background-color: rgb(248, 243, 233);
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px ;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(97, 20, 1);
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  padding: 10px 0;
+  font-size: 24px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  transition:all 0.5s;
+  padding: 10px 0;
+  font-size: 24px;
+}
+
+.header-right a {
+  color: white;
+}
+
+.profile-wrapper {
+  padding: 50px 0 10px 0;
+}
+
+.profile img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  float: left;
+  padding-left: 28%;
+  object-fit: contain;
+}
+
+h1 {
+  text-align: center;
+}
+
+.profile p{
+  padding-top: 13px;
+}
+
+.trip-wrapper {
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  color: rgb(93, 95, 93);
+  text-align: center;
+}
+
+.title img {
+  width: 280px;
+  height: 200px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.title {
+  float: left;
+  width: 25%;
+  padding-bottom: 50px;
+}
+
+.title-icon {
+  position: relative;
+}
+
+.title-icon p {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 0 10px black;
+}
+
+.text-contents {
+  width: 80%;
+}
+
+.arsenal {
+  text-align: center;
+  position: relative;
+}
+.arsenal img{
+  width: 560px;
+  height: 280px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.arsenal p {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 0 10px black;
+}
